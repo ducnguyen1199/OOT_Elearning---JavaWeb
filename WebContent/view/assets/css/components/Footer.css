@@ -1,0 +1,482 @@
+
+.footer-section {
+    background-image: url(../../img/footer-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.footer-section::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #202647;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+}
+
+.footer-heading {
+    margin-bottom: 25px;
+}
+
+.footer-heading h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0 0 0 0;
+    text-align:center;
+}
+
+.footer-area .footer-social {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.footer-area .footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-area .footer-social li:last-child {
+    margin-right: 0;
+}
+
+.footer-area .footer-social i {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    color: #f272bc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.footer-area .footer-social i::before {
+    font-size: 13px;
+}
+
+.footer-area .footer-social i:hover {
+    background-color: #f20791;
+    color: #ffffff;
+    border: 1px solid #f20791;
+}
+
+.footer-area p {
+    font-size: 14px;
+    color: #d1cfcf;
+    font-weight: 400;
+}
+
+.footer-item-area .footer-heading {
+    margin-bottom: 25px;
+}
+
+.footer-item-area .footer-heading h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0 0 0 0;
+}
+
+.footer-item-area .footer-quick-links {
+    padding-left: 0;
+    margin-bottom: 0;
+    padding: 0 20px;
+}
+
+.footer-item-area .footer-quick-links li {
+    list-style-type: none;
+    padding-bottom: 16px;
+}
+
+.footer-item-area .footer-quick-links li a {
+    display: inline-block;
+    color: #e0dbdb;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-item-area .footer-quick-links li a:hover {
+    color: #f20791;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.footer-info-contact {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 14px;
+}
+
+.footer-info-contact:last-child {
+    margin-bottom: 0;
+}
+
+.footer-info-contact i {
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: -4px;
+}
+
+.footer-info-contact i::before {
+    font-size: 20px;
+}
+
+.footer-info-contact h3 {
+    font-size: 16px;
+    color: #e0dbdb;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.footer-info-contact span {
+    font-size: 14px;
+    color: #e0dbdb;
+    font-weight: 400;
+}
+
+.footer-info-contact span a {
+    font-size: 14px;
+    color: #e0dbdb;
+    font-weight: 400;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.footer-info-contact span a:hover {
+    color: #f20791;
+}
+
+/*================================================
+  Copyright Section CSS
+  =================================================*/
+
+.copyright-area {
+    background-color: #01082d;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.copyright-area p {
+    color: #d9d3d3;
+    font-size: 14px;
+}
+
+.copyright-area p a {
+    color: #d9d3d3;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.copyright-area p a:hover {
+    color: #f20791;
+}
+
+.copyright-area ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+.copyright-area ul li {
+    display: inline-block;
+    color: #d9d3d3;
+    font-size: 14px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.copyright-area ul li a {
+    display: inline-block;
+    color: #d9d3d3;
+}
+
+.copyright-area ul li a:hover {
+    color: #f20791;
+}
+
+.copyright-area ul li::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: -13px;
+    width: 1px;
+    height: 14px;
+    background-color: #ffffff;
+}
+
+.copyright-area ul li:last-child {
+    margin-right: 0;
+}
+
+.copyright-area ul li:last-child::before {
+    display: none;
+}
+
+.copyright-area ul li:first-child {
+    margin-left: 0;
+}
+
+/*================================================
+  Animate shape
+  =================================================*/
+
+.shape-img1 {
+    position: absolute;
+    left: 12%;
+    top: 14%;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    -webkit-animation: moveLeftBounce 3s linear infinite;
+    animation: moveLeftBounce 3s linear infinite;
+}
+
+.shape-img2 {
+    position: absolute;
+    left: 30%;
+    top: 17%;
+    -webkit-transform: translateY(-20%) translateX(-15%);
+    transform: translateY(-20%) translateX(-15%);
+    z-index: -1;
+    -webkit-animation: animationFramesOne 20s infinite linear;
+    animation: animationFramesOne 20s infinite linear;
+}
+
+.shape-img3 {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 10%;
+    -webkit-animation: rotate3d 4s linear infinite;
+    animation: rotate3d 4s linear infinite;
+}
+
+.shape-img4 {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+
+.shape-img5 {
+    position: absolute;
+    z-index: -1;
+    bottom: 8%;
+    left: 20%;
+    -webkit-animation: moveLeftBounce 3s linear infinite;
+    animation: moveLeftBounce 3s linear infinite;
+}
+
+.shape-img6 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    z-index: -1;
+    top: 20%;
+    -webkit-animation: rotate3d 4s linear infinite;
+    animation: rotate3d 4s linear infinite;
+}
+
+.shape-img7 {
+    position: absolute;
+    left: 50%;
+    bottom: 28%;
+    z-index: -1;
+    -webkit-animation: moveBounce 5s linear infinite;
+    animation: moveBounce 5s linear infinite;
+}
+
+.shape-img8 {
+    position: absolute;
+    bottom: 12%;
+    right: 25%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: -1;
+    -webkit-animation: moveLeftBounce 3s linear infinite;
+    animation: moveLeftBounce 3s linear infinite;
+}
+
+.shape-img9 {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    z-index: -1;
+    -webkit-animation: moveScale 3s linear infinite;
+    animation: moveScale 3s linear infinite;
+}
+
+.shape-img10 {
+    position: absolute;
+    left: 5%;
+    z-index: -1;
+    top: 5%;
+    -webkit-animation: moveLeftBounce 3s linear infinite;
+    animation: moveLeftBounce 3s linear infinite;
+}
+
+.shape-img11 {
+    position: absolute;
+    right: 5%;
+    z-index: -1;
+    bottom: 5%;
+    -webkit-animation: moveLeftBounce 3s linear infinite;
+    animation: moveLeftBounce 3s linear infinite;
+}
+
+@keyframes rotateMe {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animationFramesOne {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    20% {
+        -webkit-transform: translate(73px, -1px) rotate(36deg);
+        transform: translate(73px, -1px) rotate(36deg);
+    }
+    40% {
+        -webkit-transform: translate(141px, 72px) rotate(72deg);
+        transform: translate(141px, 72px) rotate(72deg);
+    }
+    60% {
+        -webkit-transform: translate(83px, 122px) rotate(108deg);
+        transform: translate(83px, 122px) rotate(108deg);
+    }
+    80% {
+        -webkit-transform: translate(-40px, 72px) rotate(144deg);
+        transform: translate(-40px, 72px) rotate(144deg);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+@keyframes animationFramesTwo {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    20% {
+        -webkit-transform: translate(-73px, 1px) rotate(-36deg);
+        transform: translate(-73px, 1px) rotate(-36deg);
+    }
+    40% {
+        -webkit-transform: translate(-141px, -72px) rotate(-72deg);
+        transform: translate(-141px, -72px) rotate(-72deg);
+    }
+    60% {
+        -webkit-transform: translate(-83px, -122px) rotate(-108deg);
+        transform: translate(-83px, -122px) rotate(-108deg);
+    }
+    80% {
+        -webkit-transform: translate(40px, -72px) rotate(-144deg);
+        transform: translate(40px, -72px) rotate(-144deg);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+@keyframes rotate3d {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes moveScale {
+    0% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+    50% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+}
+
+@keyframes moveLeftBounce {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    50% {
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+
+@keyframes moveBounce {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+/* Back to top CSS */
+
+#back-top {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    cursor: pointer;
+    bottom: 10px;
+    right: 10px;
+    background-color: #202020;
+    z-index: 1000;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}

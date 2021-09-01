@@ -1,0 +1,193 @@
+.profile-page {
+    min-height: 600px;
+    margin-top: 65px;
+    padding: 30px;
+    background: linear-gradient(to right, #eecda3, #3d8cb9);
+}
+
+.profile-page .profile-block {
+    min-height: 600px;
+    border: 1px solid #eae5e5;
+    padding: 20px;
+    background: white;
+}
+
+.profile-page .profile-block .user-profile {
+    box-shadow: 0px 0px 0px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-page .profile-block .user-profile .user-img {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #686f7a;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.profile-page .profile-block .user-profile .user-img .user-icon {
+    font-size: 60px;
+    color: white;
+    padding: 10px;
+    line-height: 1;
+}
+
+.profile-page .tab-content {
+    background: white;
+    padding: 20px;
+    border: 1px solid #eae5e5;
+    min-height: 600px;
+}
+
+.profile-page .tab-content .icons i {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.profile-page .tab-content .icons .fb {
+    color: #4267b2;
+}
+
+.profile-page .tab-content .icons .tw {
+    color: #1da1f2;
+}
+
+.profile-page .tab-content .icons .yt {
+    color: #db4437;
+}
+
+.profile-page .user {
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.profile-page form input {
+    text-align: left;
+}
+
+.profile-page form input:focus {
+    width: 100%;
+}
+
+.history-page .Courses_Card.courses_Card {
+    width: 95%;
+}
+
+.history-page .Courses_Card.courses_Card .List_page {
+    margin: 0;
+}
+
+.history-page .Courses_Card.courses_Card .item-history {
+    margin: 25px 0;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 0 10px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.history-page .Courses_Card.courses_Card .item-history .card-top .card-img-top {
+    height: 130px;
+}
+
+.history-page .Courses_Card.courses_Card .item-history .card-top .card-img-top {
+    height: 150px;
+}
+
+.List_page {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.List_page .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.List_page .num {
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    cursor: pointer;
+}
+
+.List_page .onlist {
+    margin: 6px 2px;
+    display: inline-block;
+    width: 40px;
+    background: #6e7f90;
+    height: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.3s;
+    position: relative;
+    padding-right: 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.List_page .onlist:hover {
+    color: #e74c3c;
+}
+
+.List_page .active {
+    background: #00cb54 !important;
+    color: #e74c3c;
+}
+
+.List_page .prev {
+    border-radius: 15px 0 0 15px;
+    width: 50px;
+    padding-right: 0px;
+    font-size: 20px;
+}
+
+.List_page .prev:hover .fa {
+    animation: fadeOutLeft 1.5s infinite;
+}
+
+.List_page .next {
+    border-radius: 0px 15px 15px 0px;
+    font-size: 20px;
+}
+
+.List_page .next:hover .fa {
+    animation: fadeOutRight 1.5s infinite;
+}
+
+.List_page .onlist::before, .List_page .onlist::after {
+    content: "";
+    position: absolute;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.List_page .num::before, .List_page .next::before {
+    border-right: 12px solid #6e7f90;
+    right: 100%;
+    transition: all 0.3s;
+}
+
+.List_page .active::before {
+    border-right: 12px solid #00cb54;
+}
+
+.List_page .num::after, .List_page .prev::after {
+    border-right: 12px solid #fff;
+    right: 0px;
+}

@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.43;
+    color: #29303b;
+    background-color: #fff;
+    margin: 0;
+}
+
+.MuiTypography-body1 {
+    font-family: inherit !important;
+}
+
+button:focus {
+    outline: none;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.nav-tabs {
+    border: 0;
+    padding: 10px 0px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.nav-link {
+    border: 0!important;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.nav-link.active {
+    color: #14cf61!important;
+}
+
+.btn-123 a {
+    text-decoration: none;
+    line-height: 35px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-123 .btn-6 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 38px;
+    max-width: 250px;
+    z-index: 50;
+    text-transform: uppercase;
+    border: 1px solid currentColor;
+}
+
+.btn-123 .btn-6 {
+    color: black;
+}
+
+.btn-123 .btn-6 span {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #00cb54;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.btn-123 .btn-6:hover span {
+    width: 200%;
+    height: 562.5px;
+}
+
+.btn-123 .btn-6:active {
+    background-color: #00cb54;
+}
+.courses .courses__title {
+    font-family: open sans, helvetica neue, Helvetica, Arial, sans-serif;
+    color: #29303b;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.43;
+    padding: 20px 0 10px;
+}
+.courses.container-fluid {
+    padding: 0 70px;
+}
+
+.fade:not(.show) {
+    display: none;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding: 22px;
+}
+
+a {
+    text-decoration: none!important;
+}

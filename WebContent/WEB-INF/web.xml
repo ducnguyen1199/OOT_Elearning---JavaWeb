@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>Elearning_FE</display-name>
+	<welcome-file-list>
+		<welcome-file>TrangChu</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>TrangChu</servlet-name>
+		<servlet-class>Controller.TrangChu</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TrangChu</servlet-name>
+		<url-pattern>/TrangChu</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>SecurityFilter</filter-name>
+		<filter-class>Filter.SecurityFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>SecurityFilter</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+
+	<error-page>
+        <error-code>404</error-code>
+        <location>/view/page_not_found/PageNotFound.jsp</location>
+    </error-page>
+</web-app>

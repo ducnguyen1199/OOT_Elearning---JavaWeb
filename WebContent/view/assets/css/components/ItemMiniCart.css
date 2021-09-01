@@ -1,0 +1,26 @@
+.item {
+	 text-align: left;
+	 padding: 15px 15px;
+	 border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	 display: flex;
+	 justify-content: space-between;
+}
+ .item:hover {
+	 background: #e8e8e8;
+	 transition: 0.3s;
+	 cursor: pointer;
+}
+ .item .media {
+	 width: 90%;
+}
+ .item .media .media-body {
+	 padding-left: 15px;
+}
+ .item .media .media-body .name-course {
+	 color: gray;
+}
+ .item .media .img {
+	 width: 69px;
+	 height: 69px;
+}
+ 

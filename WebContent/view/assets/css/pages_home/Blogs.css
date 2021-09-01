@@ -1,0 +1,156 @@
+.Page_Blog {
+  overflow-x: hidden;
+}
+.Page_Blog h2 {
+  font-size: 20px;
+  font-weight: normal;
+  position: relative;
+}
+.Page_Blog h2::after {
+  content: "";
+  width: 30px;
+  height: 4px;
+  background-color: grey;
+  position: absolute;
+  top: 40px;
+  left: 3px;
+}
+.Page_Blog .banner {
+  background-color: #a7b162;
+  background-repeat: repeat;
+  background-position: center center;
+  height: 180px;
+}
+.Page_Blog .banner {
+  color: white;
+  display:flex;
+  align-items:center;
+}
+.Page_Blog .banner h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.Page_Blog .banner ul {
+  display: flex;
+  list-style: none;
+}
+.Page_Blog .banner ul li {
+  transition: all 0.25s;
+  cursor: pointer;
+  font-weight: 600;
+}
+.Page_Blog .banner ul li a{
+	text-decoration:none;
+	color:white;
+	transition: all 0.3s;
+}
+.Page_Blog .banner ul li a:hover{
+	color:black;
+	transition: all 0.3s;
+}
+.Page_Blog .banner ul li:hover {
+  color: black;
+}
+.Page_Blog .banner ul li:hover:first-child::after {
+  color: white;
+}
+.Page_Blog .banner ul li:first-child::after {
+  content: "/";
+  margin: 0 4px;
+}
+.Page_Blog .contentBlog {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+.Page_Blog .content-left h4 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.Page_Blog .content-left h4::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: grey;
+  position: absolute;
+  bottom: -10px;
+  left: 3px;
+}
+.Page_Blog .content-left .item .detail {
+  margin: 20px 0;
+}
+.Page_Blog .content-left .item .detail .fa {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.Page_Blog .content-right h2 {
+  margin-bottom: 20px;
+}
+.Page_Blog .content-right .List-work li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0;
+  position: relative;
+  font-size: 14px;
+}
+.Page_Blog .content-right .List-work li::after {
+  content: "";
+  width: 100%;
+  background-color: black;
+  height: 1px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  opacity: 0.2;
+}
+.Page_Blog .content-right .List-work .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+}
+.Page_Blog .content-right .Latest_Posts {
+  margin-top: 50px;
+}
+.Page_Blog .content-right .Latest_Posts .item_latest {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+.Page_Blog .content-right .Latest_Posts .item_latest img {
+  width: 70px !important;
+  height: 70px !important;
+}
+.Page_Blog .content-right .Latest_Posts .item_latest .Detail {
+  width: 160px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+.Page_Blog .content-right .Latest_Posts .item_latest .Detail p {
+  cursor: pointer;
+  margin: 0;
+}
+.Page_Blog .content-right .Latest_Posts .item_latest .Detail p:hover {
+  color: orange;
+}
+.Page_Blog .content-right .Teachers {
+  margin-top: 50px;
+}
+.Page_Blog .content-right .Teachers .item-teacher img {
+  width: 272px;
+  height: 243px;
+}
+.Page_Blog .content-right .Teachers .item-teacher h3 {
+  font-size: 18px;
+  color: #727272;
+  font-weight: 600;
+  padding: 10px 0;
+  margin: 0;
+}
+.Page_Blog .content-right .Teachers .item-teacher span {
+  color: orange;
+}
+.Page_Blog .content-right .Teachers .item-teacher p {
+  padding: 0 5px;
+}

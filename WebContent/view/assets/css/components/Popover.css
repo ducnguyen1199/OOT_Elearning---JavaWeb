@@ -1,0 +1,231 @@
+.popover {
+    max-width: 400px;
+    z-index: 10;
+}
+
+.popover .popover-inner {
+    padding: 35px 40px 22px;
+    z-index: 1030;
+    -webkit-box-shadow: 0 4px 16px rgba(20, 23, 28, 0.25);
+    box-shadow: 0 4px 16px rgba(20, 23, 28, 0.25);
+}
+
+.popover .popover-inner .popover_header {
+    color: #686f7a;
+}
+
+.popover .popover-inner .popover_header .-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.popover .popover-inner .popover_header .-avatar p {
+    display: inline-block;
+}
+
+.popover .popover-inner .popover_header .-lastupdated {
+    font-size: 13px;
+    margin: 0px;
+    text-align: right;
+    width: 100px;
+}
+
+.badge-with-content {
+    background: #f4c150;
+    color: #29303b;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-size: 9px;
+    padding: 1px 8px;
+    border: none;
+    min-width: inherit;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 2;
+    vertical-align: baseline;
+}
+
+.badge-with-content::after {
+    background: inherit;
+    right: -4px;
+    border-radius: 3px;
+    content: "";
+    height: 11px;
+    position: absolute;
+    top: 2px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 11px;
+    z-index: 1;
+    display: block;
+}
+
+.popover-header {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+
+.popover .popover-inner .popover_header .popover-header {
+    text-transform: capitalize;
+    visibility: visible;
+    display: block !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -moz-line-clamp: 3;
+    -ms-line-clamp: 3;
+    -o-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -o-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 18px;
+    font-weight: 600 !important;
+    line-height: 1.33;
+    letter-spacing: -0.3px;
+}
+
+.popover .popover-inner .popover_header .popover-header a {
+    color: #505763;
+}
+
+.popover .popover-inner .popover_header .popover_badge.-with-content {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.popover .popover-inner .popover_header .popover_badge .content-info {
+    margin-left: 5px;
+    color: #686f7a;
+    display: block;
+    font-size: 12px;
+    overflow: auto;
+}
+
+.popover .popover-inner .popover_header .popover_badge .content-info span a {
+    text-decoration: none;
+}
+
+.popover .popover-inner .popover_header .course-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    letter-spacing: -0.1px;
+    margin: 0 -5px;
+}
+
+.popover .popover-inner .popover_header .course-info .e-icon {
+    padding: 0 5px;
+    margin-bottom: 5px;
+}
+
+.popover .popover-inner .popover_header .course-info .e-icon i .MuiSvgIcon-root {
+    font-size: 22px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+    fill: #273044;
+}
+
+.popover .popover-inner .popover_body {
+    color: #686f7a;
+}
+
+.popover .popover-inner .popover_body.popover-body {
+    padding: 0;
+}
+
+.popover .popover-inner .popover_body .description {
+    text-transform: capitalize;
+    margin: 0 0 5px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    display: -webkit-box !important;
+}
+
+.popover .popover-inner .popover_body .description-info {
+    line-height: 26px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.popover .popover-inner .popover_body .MuiCardActions-root {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.popover .popover-inner .popover_body .heart i {
+    text-stroke: 1px #ec5252;
+    -webkit-text-stroke: 1px #ec5252;
+    color: #fff;
+    font-size: 20px;
+}
+
+.popover-body {
+    padding: 0;
+}
+
+.popover .popover-inner .popover_body .heart .cart-heart {
+    border: 1px solid rgba(0, 0, 0, 0.54);
+}
+
+.popover .popover-inner .popover_body .heart .cart-heart.heart--color .MuiIconButton-label .MuiSvgIcon-root {
+    fill: blueviolet;
+}
+
+.popover .popover-inner .popover_body .heart .cart-heart .MuiIconButton-label .MuiSvgIcon-root {
+    font-size: 1.5rem;
+}
+
+.popover .popover-inner .popover_body .heart .cart-heart .MuiTouchRipple-root:focus {
+    outline: none;
+}
+
+.popover .popover-inner .popover_body .heart .cart-heart:hover, .popover .popover-inner .popover_body .heart .cart-heart:focus {
+    outline: none;
+}
+
+.popover .popover-inner .popover_body .heart .cart-heart:hover i, .popover .popover-inner .popover_body .heart .cart-heart:focus i {
+    color: #ec5252;
+}
+
+.popover .popover-inner .popover_body .heart .fee {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.popover .popover-inner .popover_body .popover_cart .add-to-card_button.btn--add.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.disabled{
+	pointer-events: none;
+  	cursor: default;
+}

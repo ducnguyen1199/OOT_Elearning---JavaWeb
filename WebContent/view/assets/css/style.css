@@ -1,0 +1,24 @@
+/* Common */
+
+@import "common/custom.css";
+/* Components */
+
+@import "components/Header.css";
+@import "components/BackToTop.css";
+@import "components/Footer.css";
+@import "components/Popover.css";
+@import "components/Card.css";
+@import "components/LoadingHome.css";
+@import "components/Carousel.css";
+/* Pages */
+
+@import "pages_home/TrangChu.css";
+@import "pages_home/ChiTietKhoaHoc.css";
+@import "pages_home/Form.css";
+@import "pages_home/GioHang.css";
+@import "pages_home/ThanhToan.css";
+@import "pages_home/KhoaHoc.css";
+@import "pages_home/HoSo.css";
+@import "pages_home/Blogs.css";
+@import "pages_home/About.css";
+@import "page_not_found/PageNotFound.css";

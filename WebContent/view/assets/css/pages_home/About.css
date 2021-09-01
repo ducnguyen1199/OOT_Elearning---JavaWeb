@@ -1,0 +1,153 @@
+.about {
+  margin-top: 65px;
+}
+.about .get-knowledge {
+  color: white;
+  height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.about .get-knowledge .content {
+  width: 82%;
+  margin: auto;
+  text-align: center;
+}
+.about .get-knowledge .content > h1 {
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #00cb54;
+  font-size: 50px;
+}
+.about .get-knowledge .content .can-learn .item {
+  border-radius: 5px;
+  padding: 20px;
+  border: 2px solid white;
+  color: white;
+  height: 177px;
+  transition: 0.4s;
+}
+.about .get-knowledge .content .can-learn .item p {
+  font-size: 17px;
+  font-weight: 700;
+  width: 70%;
+  margin: auto;
+}
+.about .get-knowledge .content .can-learn .item img, .about .get-knowledge .content .can-learn .item i {
+  font-size: 73px;
+  height: 72px;
+  margin-bottom: 15px;
+}
+.about .get-knowledge .content .can-learn .item:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+.about .get-knowledge .content .can-learn .item:hover.item1 {
+  background: #307ad5;
+}
+.about .get-knowledge .content .can-learn .item:hover.item2 {
+  background: #eab830;
+}
+.about .get-knowledge .content .can-learn .item:hover.item3 {
+  background: #48a7d4;
+}
+.about .get-knowledge .content .can-learn .item:hover.item4 {
+  background: #41e477;
+}
+.about .who-are-we {
+  padding: 50px;
+}
+.about .who-are-we p {
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.about .who-are-we .contact {
+  border-radius: 0px;
+  background: transparent;
+  color: gray;
+  border: 2px solid gray;
+  transition: 0.3s;
+}
+.about .who-are-we .contact:hover {
+  transition: 0.3s;
+  background: gray;
+  color: white;
+}
+
+
+
+.About_us {
+  width: 88%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.About_us > h1 {
+  font-size: 26px;
+  font-family: open sans, helvetica neue, Helvetica, Arial, sans-serif;
+  color: #29303b;
+  padding: 10px;
+  padding-left: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.About_us .About-content .content-left {
+  padding: 0 15px;
+}
+.About_us .About-content .content-left .list-about {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 5px;
+  margin-bottom: 0px;
+}
+.About_us .About-content .content-left .list-about li {
+  list-style: none;
+}
+.About_us .About-content .content-left .list-about li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  opacity: 0.8;
+}
+.About_us .About-content .content-left .list-about li a::after {
+  content: "/";
+  opacity: 1;
+  color: gray;
+  margin: 0 3px;
+}
+.About_us .About-content .content-left .list-about li a:hover {
+  opacity: 1;
+}
+.About_us .About-content .content-left .list-about li:last-child a::after {
+  content: "/";
+  opacity: 0;
+}
+.About_us .About-content .content-left p {
+  width: 95%;
+  margin: 0 auto;
+}
+.About_us .About-content .content-mid {
+  padding: 0 30px;
+}
+.About_us .About-content .content-mid h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 28px;
+}
+.About_us .About-content .content-mid h3 .fa {
+  color: #ffc000;
+  transform: translateX(-5px);
+}
+.About_us .About-content .content-mid ul li {
+  list-style: square;
+  margin: 10px 0;
+  transform: translateX(30px);
+}
+
+

@@ -1,0 +1,40 @@
+.cart-page {
+	 background: linear-gradient(to right, #eecda3, #3d8cb9);
+	 margin-top: 65px;
+	 height: 100%;
+	 padding-top: 50px;
+}
+ .cart-page .col-7 .table .product {
+	 text-align: left;
+	 width: 250px;
+}
+ .cart-page .col-7 .table tbody tr {
+	 text-align: center;
+}
+ .cart-page .col-7 .table tbody tr:hover {
+	 background: #e6e4e4;
+	 cursor: pointer;
+}
+ .cart-page .col-7 .table .price, .cart-page .col-7 .table .remove {
+	 width: 80px;
+}
+ .cart-page .col-7 .table .info {
+	 text-align: left;
+	 width: 250px;
+}
+ .cart-page .col-7 .fa.fa-trash {
+	 cursor: pointer;
+}
+ .cart-page .col-7 .fa.fa-trash:hover {
+	 padding: 6px;
+	 width: 25px;
+	 height: 25px;
+	 background: #9e9898;
+	 border-radius: 50%;
+	 color: white;
+	 line-height: 0.9;
+}
+ .cart-page img {
+	 height: 70px;
+}
+ 

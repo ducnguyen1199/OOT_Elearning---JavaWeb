@@ -1,0 +1,747 @@
+/*================================================
+Info Section CSS
+=================================================*/
+
+.intro {
+    position: relative;
+    height: 580px;
+    margin-top: 45px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../img/5.jpg");
+}
+
+.intro .intro_content {
+    text-align: center;
+}
+
+.intro .intro_content>h3 {
+    color: #00cb54;
+    color: #00cb54;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.intro .intro_content>h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.intro .intro_content .sub-title {
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.intro .intro_content .sub-title span.number {
+    color: #00cb54;
+}
+
+.intro .intro_content .buttons {
+    margin: 30px auto;
+}
+
+.intro .intro_content .buttons button {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    transition: 0.4s;
+    padding: 10px 20px;
+}
+
+.intro .intro_content .buttons button.start:hover {
+    background: #274735;
+    transition: 0.4s;
+}
+
+.intro .intro_content .buttons button.become {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.intro .intro_content .buttons button.become:hover {
+    transition: 0.4s;
+    background: white;
+    color: black;
+}
+
+.intro .intro_content .search .input-group {
+    border-radius: 5px;
+    position: relative;
+}
+
+.intro .intro_content .search .input-group .input {
+    border: 1px solid transparent;
+}
+
+.intro .intro_content .search .input-group .input::placeholder {
+    color: #b4acac;
+}
+
+.intro .intro_content .search .input-group .input:focus {
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+.intro .intro_content .search .input-group .btn-info {
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.intro .list-filter {
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 1px 6px 0px #bba9a9;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    min-height: 100px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.intro .list-filter .item {
+    color: black;
+    text-align: left;
+    padding: 15px 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro .list-filter .item:hover {
+    background: #e6e4e4;
+    cursor: pointer;
+}
+
+.intro .list-filter .item:last-child {
+    border-bottom: 1px solid transparent;
+}
+
+.intro .list-filter .item.find {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro .list-filter .item.find:hover {
+    background: none;
+}
+
+.intro .list-filter .item.find p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.intro .list-filter .item .media {
+    width: 90%;
+}
+
+.intro  .list-filter .item .media .media-body {
+    padding-left: 15px;
+}
+
+.intro .list-filter .item .media .img {
+    width: 69px;
+    height: 69px;
+}
+
+.intro form button {
+    width: auto;
+    margin-top: 0;
+}
+.intro form input {
+     text-align: left;
+}
+#tc-content-search.hide{
+	display:none;
+}
+/*================================================
+Use course Section CSS
+=================================================*/
+
+.use-course {
+    text-align: center;
+    padding: 30px;
+}
+
+.use-course h1 {
+    font-size: 34px;
+    color: #00cb54;
+}
+
+.use-course p {
+    width: 70%;
+    margin: auto;
+}
+
+.use-course .col-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.use-course .col-4 .item {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-repeat: no-repeat !important;
+    background-position: left bottom !important;
+    height: 200px;
+    width: 100%;
+    color: white;
+    background: #ffce55;
+}
+
+.use-course .col-4 .item.item1 {
+    background: #2cc8de;
+}
+
+.use-course .col-4 .item.item2 {
+    background: #40a0d2;
+}
+
+.use-course .col-4 .item .content {
+    width: 100%;
+    height: 3p;
+}
+
+.use-course .col-4 .item .content h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.use-course .col-4 .item .content h5 {
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.use-course .col-4 .item .content button {
+    margin-top: 10px;
+    border-radius: 0px;
+    background: transparent;
+    border: 2px solid white;
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+.use-course .col-4 .item .content button:hover {
+    background: white;
+    transform: translateY(-7px);
+    transition: 0.2s;
+}
+
+.use-course .col-4 .item .content button:hover.get-job {
+    color: #ffce55;
+}
+
+.use-course .col-4 .item .content button:hover.sign-up {
+    color: #2cc8de;
+}
+
+.use-course .col-4 .item .content button:hover.view-all {
+    color: #40a0d2;
+}
+
+.fix_Use-Course {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.fix_Use-Course h1 {
+    font-size: 30px;
+}
+
+/*================================================
+DisCount Section CSS
+=================================================*/
+
+.discount {
+    background: #f5f5f7;
+    margin: 100px 0;
+}
+
+.discount .discount__content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.discount .discount__content .discount__detail {
+    text-align: left;
+    padding: 35px 15px;
+}
+
+.discount .discount__content .discount__detail .discount__header {
+    color: #333;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.discount .discount__content .discount__detail .discount__header .-title {
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.discount .discount__content .discount__detail .discount__header .-save {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.discount .discount__content .discount__detail .discount__body .t-body {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.discount .discount__content .discount__detail .discount__body .time-remaining .time-remaining__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.discount .discount__content .discount__detail .discount__body .time-remaining .time-remaining__header h4 {
+    padding: 0 0.8em;
+    font-weight: 600;
+    font-size: 100%;
+    color: #333;
+    line-height: 1em;
+    flex: 1 0 auto;
+    margin-bottom: 0;
+}
+
+.discount .discount__content .discount__detail .discount__body .time-remaining .time-remaining__header .time-remaining__header-line {
+    border: 1px solid #ebebeb;
+    height: 1px;
+    width: 100%;
+}
+
+.discount .discount__content .discount__detail .sign-up {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.discount .discount__content .discount__detail .sign-up .btn-sign-up {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 2.2857em;
+    padding: 0 1.9286em;
+    background-color: #00cb54;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #00cb54;
+    border-radius: 0;
+    transition: all 0.3s;
+}
+
+.discount .discount__content .discount__detail .sign-up .btn-sign-up:hover {
+    background-color: transparent;
+    color: #00cb54;
+}
+
+.discount .discount__content .discount__detail .sign-up .btn-sign-up .MuiButton-label {
+    font-weight: 400;
+}
+
+.discount .discount__content .discount__img .img-fluid {
+    max-width: 80%;
+}
+
+@media (min-width: 1200px) {
+    .discount .container {
+        max-width: 1170px;
+    }
+}
+
+/*================================================
+Instructors Section CSS
+=================================================*/
+
+.instructors {
+    padding: 10px 0;
+    margin-bottom: 50px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.instructors h1 {
+    font-size: 26px;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 0;
+    font-weight: 600;
+    font-family: open sans, helvetica neue, Helvetica, Arial, sans-serif;
+    color: #29303b;
+}
+
+.instructors .parent-card {
+    justify-content: center;
+    position: relative;
+}
+
+.instructors .parent-card .test:hover .card {
+    transform: scale(0.91);
+    filter: blur(10px);
+}
+
+.instructors .parent-card .test:hover {
+    height: 300px;
+}
+
+.instructors .parent-card .test {
+    transition: all 0.25s;
+}
+
+.instructors .parent-card .test .card {
+    padding: 10px;
+    position: relative;
+    height: 280px;
+    width: 170px;
+    margin: 0 auto;
+    z-index: 6;
+    background: white;
+    border: 1px solid white;
+    text-align: center;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.instructors .parent-card .test .card img {
+    width: 120px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: all 0.25s;
+    box-sizing: border-box;
+}
+
+.instructors .parent-card .test .card .detail-card {
+    padding: 10px 0;
+}
+
+.instructors .parent-card .test .card .detail-card p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.instructors .parent-card .test .card .detail-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+     margin: 0;
+}
+
+.instructors .parent-card .test .card .icon-card {
+    color: rgba(255, 187, 0, 0.692);
+}
+
+.instructors .parent-card .test .card:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 23px -15px rgba(48, 44, 48, 1);
+    -moz-box-shadow: 0px 0px 23px -15px rgba(48, 44, 48, 1);
+    box-shadow: 0px 0px 23px -15px rgba(48, 44, 48, 1);
+    z-index: 7;
+    background: #f5f5f5;
+    filter: none;
+}
+
+.instructors .parent-card .test .card:hover img {
+    transform: scale(0.9);
+}
+
+.instructors .parent-card .test .card:hover .icon-card {
+    opacity: 0;
+}
+
+.instructors .parent-card .test .card:hover .info-card {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa {
+    transform: translate(-1px, 0px);
+    transition: all 0.25s;
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.4s;
+    transform: scale(0);
+    border-radius: 5px;
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa-facebook {
+    transition-delay: 0.3s;
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa-facebook:hover::after {
+    background: #4267b2;
+    transform: scale(1);
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa-envelope {
+    transition-delay: 0.4s;
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa-envelope:hover::after {
+    background: #d93025;
+    transform: scale(1);
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa-twitter {
+    transition-delay: 0.5s;
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa-twitter:hover::after {
+    background: #1da1f2;
+    transform: scale(1);
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa-youtube-play {
+    transition-delay: 0.6s;
+}
+
+.instructors .parent-card .test .card:hover .info-card .info-icon .fa-youtube-play:hover::after {
+    background: #f00;
+    transform: scale(1);
+}
+
+.instructors .parent-card .test .card .info-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    color: black;
+    transform: scale(0.5);
+    border-radius: 4px;
+}
+
+.instructors .parent-card .test .card .info-card .info-icon {
+    margin-top: 5px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.instructors .parent-card .test .card .info-card .info-icon .fa {
+    border-radius: 5px;
+    height: 25px;
+    width: 30px;
+    position: relative;
+    left: 0;
+    line-height: 25px;
+    text-align: center;
+    background: rgba(48, 44, 48, 0.6);
+    margin-bottom: 1px;
+    transform: translate(-30px, 0px);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.instructors .parent-card .test .card .info-card .info-icon .fa:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.instructors .parent-card .test .card .info-card .view {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.instructors .parent-card .test .card .info-card .info {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+
+.instructors .parent-card .test .card .info-card .info p {
+    margin: 5px 0;
+}
+
+.instructors .parent-card .test .card .info-card .card-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 13px;
+    background: #f5f5f5;
+    border-top: none;
+    padding: 5px;
+    position: relative;
+    z-index: 20;
+}
+
+.instructors .parent-card .test .card .info-card .card-footer p {
+    margin: 0;
+}
+
+/*================================================
+Count course Section CSS
+=================================================*/
+
+.count_courses {
+    background-image: url('../../img/2.jpg');
+    position: relative;
+}
+
+.count_courses::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 203, 84, 0.5);
+    z-index: 5;
+}
+
+.count_courses .count_icon {
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.count_courses .count_icon .icon {
+    height: 300px;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    z-index: 6;
+    color: white;
+    padding: 60px 0;
+}
+
+.count_courses .count_icon .icon p {
+    font-size: 28px;
+}
+
+.count_courses .count_icon .icon .fa {
+    font-size: 70px;
+}
+
+/*================================================
+Contact Section CSS
+=================================================*/
+
+.contact-box {
+    background: #ffffff;
+    padding: 25px 25px 25px 95px;
+    border-radius: 5px;
+    position: relative;
+    -webkit-box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+    box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.contact-box .icon {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #28406D;
+    border: 1px dashed #28406D;
+    border-radius: 50%;
+    font-size: 22px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-box:hover {
+    -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+    box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.contact-box:hover .icon {
+    color: #ffffff;
+    background: #f20791;
+    border: 1px dashed #f20791;
+}
+
+.contact-box .content h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.contact-box .content p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.contact-box .content a {
+    color: #777777;
+    text-decoration: none;
+}
+
+.contact-box .content a:hover {
+    color: #28406D;
+}
+
+.popular__header .nav-card {
+    border: 0;
+    padding: 15px 0px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    justify-content: center;
+    display:flex;
+    align-items:center;
+}
+
+.popular__header .nav-item {
+    border: 0!important;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.nav-card .nav-item.active {
+    background-color: #f5f5f5;
+    font-size:20px;
+     color: #14cf61!important;
+     cursor: context-menu;
+}
+
+.popular-courses .card-course{
+	display:none;
+	visibility: hidden;
+}
+
+.popular-courses .card-course.show{
+	display:block;
+	visibility: visible;
+}
+.flip-clock-wrapper ul li a div{
+	    background-image: none;
+}

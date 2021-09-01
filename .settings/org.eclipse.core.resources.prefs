@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/Controller/LoginHome.java=UTF-8
+encoding//src/Controller/SignUpHome.java=UTF-8
+encoding//src/ControllerAdmin/AddCourse.java=UTF-8
+encoding//src/ControllerAdmin/DeleteAdmin.java=UTF-8
+encoding//src/ControllerAdmin/DeleteCourse.java=UTF-8
+encoding//src/ControllerAdmin/DeleteTeacher.java=UTF-8
+encoding//src/ControllerAdmin/DeleteUser.java=UTF-8
+encoding//src/ControllerAdmin/LoginAdmin.java=UTF-8

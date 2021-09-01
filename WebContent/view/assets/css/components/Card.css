@@ -1,0 +1,355 @@
+/*================================================
+Card CSS
+=================================================*/
+
+.course_card {
+    cursor: pointer;
+    border: none;
+    -webkit-transition: -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-transform 300ms;
+    transition: -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-transform 300ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 300ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 300ms, -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, -webkit-transform 300ms;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card.MuiPaper-rounded {
+    border-top-right-radius: 10px;
+}
+
+.card.MuiCard-root {
+    overflow: visible;
+}
+
+.course_card .MuiButtonBase-root:focus {
+    outline: none;
+}
+
+.course_card .MuiButtonBase-root:hover .MuiCardActionArea-focusHighlight {
+    opacity: 0;
+}
+
+.course_card .wrapper-badge {
+    position: absolute;
+    z-index: 2;
+}
+
+.course_card .wrapper-badge .badge {
+    position: relative;
+    left: -10px;
+    top: 20px;
+    font-family: open sans, helvetica neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: #00cb54;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 0;
+}
+
+.course_card .wrapper-badge .badge i:first-child {
+    position: absolute;
+    z-index: -1;
+    bottom: -7px;
+    left: -7px;
+    border: 7px solid transparent;
+    border-right-color: #035d2891;
+}
+
+.course_card .wrapper-badge .badge i:last-child {
+    position: absolute;
+    z-index: -2;
+    bottom: -7px;
+    left: -13px;
+    border: 10px solid #0bad0bfc;
+    border-left-color: transparent;
+}
+
+.course_card .wrapper-badge .badge.badge--hot {
+    background-color: #f8463f;
+}
+
+.course_card .wrapper-badge .badge.badge--hot i:first-child {
+    border-right-color: #5f000091;
+}
+
+.course_card .wrapper-badge .badge.badge--hot i:last-child {
+    border-color: #c02031;
+    border-left-color: transparent;
+}
+
+.course_card .wrapper-badge .badge.badge--new {
+    background-color: #3498db;
+}
+
+.course_card .wrapper-badge .badge.badge--new i:first-child {
+    border-right-color: #0a015891;
+}
+
+.course_card .wrapper-badge .badge.badge--new i:last-child {
+    border-color: #2980b9;
+    border-left-color: transparent;
+}
+
+.course_card .card-top {
+    position: relative;
+}
+
+.course_card .card-top .card-img-top {
+    border-radius: 0 10px 0 0;
+    height: 121px;
+}
+
+.course_card .card-top .card-img-top.MuiCardMedia-root {
+    background-size: 100% 100%;
+}
+
+.course_card .card-top .card__overlay {
+    background-color: #29303b;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 0 10px 0 0;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.course_card .card-body {
+    padding: 10px 10px 15px 15px;
+}
+
+.course_card .card-body .card-title {
+    font-family: open sans, helvetica neue, Helvetica, Arial, sans-serif;
+    color: #29303b;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 43px;
+    text-transform: capitalize;
+    height: 43px;
+    margin-bottom: 10px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box !important;
+}
+
+.course_card .card-body .card-title span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.course_card .card-body .card-text {
+    font-family: open sans, helvetica neue, Helvetica, Arial, sans-serif;
+    color: #686f7a;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: normal;
+    line-height: 1.43;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.course_card .card-body .star .MuiSvgIcon-root {
+    fill: #f4c150;
+    font-size: 1rem;
+}
+
+.course_card .card-body .star span {
+    margin-left: 7px;
+    line-height: 1.43;
+}
+
+.course_card .card-body .star span:nth-child(6) {
+    color: #29303b;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.course_card .card-body .star span:last-child {
+    color: #686f7a;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.course_card .card-body .price {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.course_card .card-body .price s span {
+    color: #686f7a;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.43;
+}
+
+.course_card .card-body .price>span {
+    color: #ff3f40;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.43;
+    margin: 5px;
+}
+
+.course_card .card-body .price .MuiSvgIcon-root {
+    fill: #ff3f40;
+}
+
+.card:hover {
+     -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    
+}
+
+.card:hover .wrapper-badge .badge {
+    -webkit-animation: main 250ms;
+    animation: main 250ms;
+}
+
+.card:hover .wrapper-badge .badge i:first-child {
+    -webkit-animation: edge 500ms;
+    animation: edge 500ms;
+}
+
+.card:hover .wrapper-badge .badge i:last-child {
+    -webkit-animation: back 600ms;
+    animation: back 600ms;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+
+.card:hover .card-top .card__overlay {
+    opacity: 0.5;
+}
+
+.card:hover .card-body {
+    -webkit-box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+}
+
+.star i {
+    color: #ffd04f;
+}
+.popover_cart{
+	margin-bottom: 12px;
+}
+.popover_cart .add-to-card_button{
+	cursor:pointer;
+	background:#ec5252;
+	padding: 16px 12px;
+	font-size:15px;
+	text-align:center;
+	height: 54px;
+	color: #fff;
+	border: 1px solid transparent;
+	width: 100%;
+	font-weight: 600;
+	line-height: 1.35135;
+	text-decoration: none;
+}
+.popover_cart .mdl-button--raised:focus:not(:active){
+	background-color: #ec5252;
+}
+.popover_cart .add-to-card_button:hover{
+	background:#992337;
+}
+.popover_cart .add-to-card_button.ordered{
+	background: #19adc2;
+}
+.popover_cart .add-to-card_button.bought{
+	background:grey;
+}
+.card-none {
+	display:none;
+}
+.card-none.show{
+	display:block;
+}
+.card-p.show {
+    animation: e-p 0.5s linear;
+}
+@keyframes e-p {
+  0% {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes main {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+@keyframes main {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+@-webkit-keyframes edge {
+    0%, 50% {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+    }
+    100% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+}
+
+@keyframes edge {
+    0%, 50% {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0);
+    }
+    100% {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1);
+    }
+}
+
+@-webkit-keyframes back {
+    0%, 75% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+
+@keyframes back {
+    0%, 75% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}

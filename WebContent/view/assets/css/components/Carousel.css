@@ -1,0 +1,58 @@
+.owl-carousel.custom{
+	position: relative
+}
+
+.owl-carousel.custom .owl-nav button {
+	position: absolute;
+    top: 27%;
+    width: 47px;
+    height: 47px;
+    border-radius: 50% !important;
+    background-color: #fff;
+    box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.2), 0 3px 1px 0 rgba(20, 23, 28, 0.2);
+    z-index: 100;
+    transition: all 0.5s;
+}
+
+.owl-carousel.custom .owl-nav button span {
+	color: #00cb54;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 0.6;
+}
+
+.owl-carousel.custom .owl-nav button:hover{
+	background: #00cb54;
+}
+
+.owl-carousel.custom .owl-nav button:hover span{
+	color:white;
+}
+
+.owl-carousel.custom .owl-nav button.disabled{
+	display:none;
+}
+.owl-carousel.custom .owl-nav .owl-prev{
+	left:-33px;
+}
+
+.owl-carousel.custom .owl-nav .owl-next{
+	right:-33px;
+}
+
+
+.owl-carousel.custom .owl-nav span {
+	font-size: 30px;
+	line-height: 0.6;
+	color: white;
+}
+
+.owl-carousel .owl-stage-outer {
+    margin-right: 0;
+    padding: 10px 0 20px 24px;
+    margin: -2px 0 -8px -24px;
+}
+
+.owl-carousel.owl-drag .owl-item{
+	width: 217.8px;
+}
